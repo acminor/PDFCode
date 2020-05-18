@@ -10,7 +10,7 @@ definition.
 PDFCode was inspired by the htags program of GNU Global.
 
 The main reason for designing PDFCode was to test the
-ability to use programs such as Noteability or Goodnotes
+ability to use programs such as Noteability or GoodNotes
 etc. to annotate source code. Linking of the code was
 done to facilitate a more editor like environment.
 
@@ -34,6 +34,10 @@ python3 ${PATH_TO_PDFCODE}/PDFCode.py
 mv test.pdf ${YOUR_NAME}.pdf
 ```
 
+# Example in Noteability
+
+![Noteability Example](imgs/7038A9EB-D7E1-4F86-A245-D1CD73C072BE.png)
+
 ## Notes
 
 1. It is advisable if doing this on a large codebase
@@ -46,5 +50,16 @@ mv test.pdf ${YOUR_NAME}.pdf
 4. Reverse tags from defintion to uses are not enabled by
    default as they greatly increase the size of the PDF file.
 5. Notes programs such as Goodnotes or Noteability may struggle
-   in opening large files (even on a iPad Pro).
+   in opening large files.
    - I.E. your usage may vary.
+
+## Other Notes
+
+PDFCode is in no way affliated with Noteability or GoodNotes.
+These are only programs we have used previously. Other programs
+with similar functionality do exist. A Google search of tablet
+natural writing programs should yield other results.
+
+GoodNotes is an app from © Time Base Technology Limited 2018.
+
+Notability is a registered trademark of Ginger Labs, Inc. © 2020 Ginger Labs, Inc. All rights reserved.
