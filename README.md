@@ -31,6 +31,9 @@ with sqlite3 support.
 cd ${YOUR_SOURCE_CODE_PATH}
 gtags --sqlite3
 python3 ${PATH_TO_PDFCODE}/PDFCode.py
+# run twice for table of contents
+pdflatex -shell-escape test.tex
+pdflatex -shell-escape test.tex
 mv test.pdf ${YOUR_NAME}.pdf
 ```
 
