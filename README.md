@@ -1,5 +1,7 @@
 # PDFCode
 
+Clone of my project at https://gitlab.com/acminor/PDFCode
+
 PDFCode is a source code to PDF generation program.
 It creates a listing of your source code with hyperlinks
 to the various definitions. It uses GNU Global (potentially
